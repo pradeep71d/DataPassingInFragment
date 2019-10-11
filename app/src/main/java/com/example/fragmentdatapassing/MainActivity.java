@@ -31,8 +31,8 @@ Button b;
                 bundle.putString("key1",s1);//putting data in key and value pair
                 bundle.putString("key2",s2);
                 myFragment.setArguments(bundle);
-                fragmentTransaction.add(R.id.frame1,myFragment);
-                fragmentTransaction.commit();
+                fragmentTransaction.add(R.id.frame1,myFragment);//framelayout is container for fragment.
+                fragmentTransaction.commit();//it means to apply changes
             }
         });
     }
