@@ -16,12 +16,9 @@ import android.widget.TextView;
  */
 public class MyFragment extends Fragment {
 TextView textView1,textView2;
-
     public MyFragment() {
         // Required empty public constructor
     }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
