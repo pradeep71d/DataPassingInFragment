@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 MyFragment myFragment = new MyFragment();
                 myFragment.setArguments(bundle);
-                fragmentTransaction.add(R.id.frame1, myFragment);//framelayout is container for fragment.
+                fragmentTransaction.add(R.id.frame1, myFragment);//framelayout is container for fragment.here we are adding fragment with our frame layout.
                 fragmentTransaction.commit();//it means to apply changes
             }
         });
