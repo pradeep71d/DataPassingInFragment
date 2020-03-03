@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putString("key2", s2);
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                MyFragment myFragment = new MyFragment();
+                MyFragment myFragment = new MyFragment();// creating fragment reference
                 myFragment.setArguments(bundle);
                 fragmentTransaction.add(R.id.frame1, myFragment);//framelayout is container for fragment.here we are adding fragment with our frame layout.
                 fragmentTransaction.commit();//it means to apply changes
